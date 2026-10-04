@@ -228,4 +228,14 @@ Si Groq falla o rechaza la clave, el gateway no muestra trazas: responde **502**
 - No hay claves en el código, los tests ni el historial de git (test automático `test_no_hay_claves_hardcodeadas_en_el_codigo`).
 - Los tests fuerzan una clave falsa en `tests/conftest.py`; nunca tocan Groq.
 
-**Manuales:** [Instalación](docs/MANUAL_INSTALACION.md) · [Usuario] (docs/MANUAL_USUARIO.md)
+---
+
+## 10. Manuales
+
+### 10.1 Instalación
+
+Requisitos, clonado, entorno virtual, configuración de `.env`, verificación y problemas frecuentes: [docs/MANUAL_INSTALACION.md](docs/MANUAL_INSTALACION.md)
+
+### 10.2 Usuario
+
+Uso del endpoint `/chat`, códigos de respuesta, logs y cómo reproducir las demos de seguridad: [docs/MANUAL_USUARIO.md](docs/MANUAL_USUARIO.md)
