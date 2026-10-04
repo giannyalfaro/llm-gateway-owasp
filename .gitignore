@@ -1,0 +1,30 @@
+# Secretos (NUNCA subir al repo)
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Logs y evidencias locales
+logs/
+*.log
+
+# Video / capturas pesadas
+*.mp4
+*.mkv
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Archivos locales de trabajo
+body.json
+evidencias/*.docx
+evidencias/~$*
+evidencias/.~lock*
